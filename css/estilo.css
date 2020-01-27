@@ -27,14 +27,14 @@ a:hover{
 }
 
 #wrapper{
-	width: 1000px;
+	width: 900px;
 	margin: auto;
 	padding: 10px 10px;
 	background: #43ab60;
 }
 
 #Menu-1 ul{
-	padding-left: 550px;
+	padding-left: 450px;
 	list-style: none;
 }
 
@@ -69,5 +69,5 @@ footer{
 
 #footer{
 	width: 200px;
-	padding-left: 850px
+	padding-left: 750px
 }
