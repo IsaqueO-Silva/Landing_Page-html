@@ -1,0 +1,89 @@
+*{  
+    box-sizing: border-box;
+    text-align: center; 
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+/*HEADER*/
+header{
+    padding: 1% 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+#logo{ width: 13em; }
+#menu{ float: right; }
+#menu ul li{
+    display: inline-block;
+    padding: 0 1em;
+}
+#menu li:hover{ color: silver; }
+/*HEADER*/
+/*SECTION*/
+#main-section{
+    height: 33em;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url('../img/bg-img1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#main-section p{
+    font-size: 3em;
+    text-shadow: 2px 2px 5px black;
+}
+#main-section{ padding-top: 7em; }
+#portfolio-section .card{ border: 1px solid black; }
+#portfolio-section .card-title{
+    word-spacing: 2px;
+    padding: 10% 0 0;
+}
+#about-section{ 
+    padding: 5% 0;
+}
+.link-1 img{
+    padding: 5px;
+    border: dashed black 1px;
+}
+#contact-section input, textarea{
+    margin: 1% 0;
+    width: 70%;
+    height: 3em;
+    font-size: 1.1em;
+}
+textarea{ 
+    resize: none;
+    height: 8em; 
+}
+#btnSubmit{
+    margin: auto;
+    width: 6em;
+    height: 4em;
+    color: white;
+    background-color: #1A76AF;
+    border: none;
+    font-size: 1.2em;
+}
+footer{
+    border: solid 1px black;
+    padding: 1.5% 1.2% 0;
+}
+.error{ color: red; }
+#portfolio-section, #contact-section{ margin: 6% 0; }/*Grouping selectors*/
+#logo, #menu li:hover, #portfolio-section .card{ cursor: pointer; }
+.link-1 img, #btnSubmit{ border-radius: 8px; }
+#about-section p,  #contact-section input, textarea{ text-align: left; }
+header, #portfolio-section .card-title{ font-size: 1.5em;}
+header, #portfolio-section .card-title{ font-weight: bold; }
+#main-section p, #about-section p{ font-weight: bolder; }
+header, #about-section, footer, #btnSubmit:hover{ background-color: #154360; }
+header, #main-section p, #about-section, footer{ color: white; }
+
+
